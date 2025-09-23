@@ -1,12 +1,16 @@
 import React from 'react'
 import BusBooking from './BusBooking'
 import BookingForm from './BookingForm'
+import TodoProcess from './TodoProcess'
+import TodoDetails from './TodoDetails'
+import NavTodo from './NavTodo'
 
 const App = () => {
   return (
     <div>
-      <BusBooking/>
-      <BookingForm/>
+      <NavTodo/>
+      <TodoProcess/>
+      <TodoDetails/>
     </div>
   )
 }
